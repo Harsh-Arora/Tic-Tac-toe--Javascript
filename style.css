@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	height: auto;
+	background: #F0F3F5;
+}
+
+body{
+	padding: 20px !important;
+	text-align: center;
+}
+
+.head{
+	font-size: 5em;
+}
+
+.game{
+	background: #011627;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.game table{
+	margin: 20px auto;
+	background: #04030F;
+	border: 3pt solid #fff;
+}
+
+table td{
+	padding: 20px;
+	font-size: 2.5em;
+	height: 50px;
+	width: 50px;
+	border: 1pt solid #fff;
+	cursor: pointer;
+}
+
+.res{
+	font-size: 2em;
+}
+
+.again{
+	font-size: 1.5em;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+
+	.head{
+		font-size: 3em;
+	}
+
+	.game{
+		width: auto;
+	}
+
+	table td{
+		padding: 10px;
+		font-size: 1em;
+		height: 30px;
+		width: 30xpx;
+	}
+}
